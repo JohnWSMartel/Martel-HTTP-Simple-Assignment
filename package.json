@@ -1,0 +1,26 @@
+{
+  "name": "martel-simple-http-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "11.7.0",
+    "npm": "6.5.0"
+  },
+  "description": "Using Node.js, this builds a simple HTTP server to HTML, text, and JSON. The server can accept several URLs and make a choice of what to return.",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/JohnWSMartel/Martel-HTTP-Simple-Assignment.git"
+  },
+  "author": "John Martel",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
