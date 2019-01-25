@@ -9,12 +9,12 @@
   "main": "./src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
-	"pretest": "eslint ./src --fix",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/JohnWSMartel/Martel-HTTP-Simple-Assignment.git"
+    "type": "git",
+    "url": "https://github.com/JohnWSMartel/Martel-HTTP-Simple-Assignment.git"
   },
   "author": "John Martel",
   "license": "ISC",
